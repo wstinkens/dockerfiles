@@ -1,8 +1,8 @@
-# `demisto/pymongo:1.0.0.10140`
+# `demisto/pycef:1.0.0.10122`
 ## Docker Metadata
-- Image Size: `31.71 MB`
-- Image ID: `sha256:5021b5777d291d974786677a17648731fc806260bde72cd7d26787209ad898e2`
-- Created: `2020-07-30T21:41:38.601931388Z`
+- Image Size: `32.30 MB`
+- Image ID: `sha256:fce5782b4f77c8d3ba67fcaecabd63ccc4790c87b453889cd82921be39066ce7`
+- Created: `2020-07-30T13:55:17.51790239Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=20.1.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/eff16c878c7fd6b688b9b4c4267695cf1a0bf01b/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=b3153ec0cf7b7bbf9556932aa37e4981c35dc2a2c501d70d91d2795aa532be79`
-  - `DOCKER_IMAGE=demisto/pymongo:1.0.0.10140`
+  - `DOCKER_IMAGE=demisto/pycef:1.0.0.10122`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:79daa6adee3fa60d13ab8bd36ddd2f12808f0ee7`
-  - `org.opencontainers.image.version:1.0.0.10140`
+  - `org.opencontainers.image.revision:b1a1054868ba51c68d390b49d2e81bbd6f190e82`
+  - `org.opencontainers.image.version:1.0.0.10122`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymongo:1.0.0.10140
+Signatures for demisto/pycef:1.0.0.10122
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.10140         00b1c7456b56479194ed4c497b514d36f6963692b267dfa0f262e22fddafe0b6   (Repo Admin)
+1.0.0.10122         17e5e72fe9c417d224ef3f27139bf5d4abf1000208ebef634d39f8230a051419   (Repo Admin)
 
-Administrative keys for demisto/pymongo:1.0.0.10140
+Administrative keys for demisto/pycef:1.0.0.10122
 
-  Repository Key:	cbd9bc88a36f4d80f05438ad8bb8f5a45b22be3d5204e7c66d0ff60b2f2a4548
-  Root Key:	1bfb956d6094f343a0911bfd079ccc2b68cc6c140b7e360299c8f57affb3a408
+  Repository Key:	918fdbbf5e3799958f69b31aab467c6482a646abd9476acb3829e235aea19993
+  Root Key:	c2c417921223bacffff6b6494a3bff8b1419188538a9317cf1c25d8db2f857e4
 
 ```
 
@@ -48,7 +48,7 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.4.5.1
+* Version: 2020.4.5.2
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -81,6 +81,15 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `future`
+
+* Summary: Clean single-source support for Python 3 and 2
+* Version: 0.18.2
+* Pypi: https://pypi.org/project/future/
+* Homepage: https://python-future.org
+* Author: Ed Schofield ed@pythoncharmers.com
+* License :: OSI Approved :: MIT License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -108,14 +117,23 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pymongo`
+### `pycef`
 
-* Summary: Python driver for MongoDB <http://www.mongodb.org>
-* Version: 3.11.0
-* Pypi: https://pypi.org/project/pymongo/
-* Homepage: http://github.com/mongodb/mongo-python-driver
-* Author: Mike Dirolf mongodb-user@googlegroups.com
-* License :: OSI Approved :: Apache Software License
+* Summary: A very simple CEF parser.
+* Version: 1.10
+* Pypi: https://pypi.org/project/pycef/
+* Homepage: https://github.com/DavidJBianco/pycef
+* Author: David J. Bianco davidjbianco@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 1.7.1
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: http://github.com/jpadilla/pyjwt
+* Author: Jose Padilla hello@jpadilla.com
+* License :: OSI Approved :: MIT License
 
 ### `PySocks`
 
@@ -157,7 +175,7 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.5.14
+* Version: 2020.6.8
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -166,7 +184,7 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.23.0
+* Version: 2.24.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -242,8 +260,8 @@ Administrative keys for demisto/pymongo:1.0.0.10140
 * alpine-keys-2.1-r2 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r0 x86_64 {apk-tools}
 * busybox-1.31.1-r9 x86_64 {busybox}
-* ca-certificates-20191127-r1 x86_64 {ca-certificates}
-* ca-certificates-cacert-20191127-r1 x86_64 {ca-certificates}
+* ca-certificates-20191127-r2 x86_64 {ca-certificates}
+* ca-certificates-cacert-20191127-r2 x86_64 {ca-certificates}
 * expat-2.2.9-r1 x86_64 {expat}
 * gdbm-1.13-r1 x86_64 {gdbm}
 * keyutils-libs-1.6.1-r0 x86_64 {keyutils}
