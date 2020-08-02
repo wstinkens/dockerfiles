@@ -280,14 +280,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -305,7 +303,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -402,14 +402,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -427,7 +425,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -957,14 +957,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -982,7 +980,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1123,14 +1123,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -1148,7 +1146,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1215,8 +1215,8 @@
         "docker_images": [
             "demisto/keepercommander",
             "demisto/pyotrs",
-            "demisto/threatconnect-tcex",
-            "demisto/chromium"
+            "demisto/chromium",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/tartley/colorama",
         "licenses": [
@@ -1479,14 +1479,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -1504,7 +1502,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -1973,14 +1973,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -1998,7 +1996,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2030,9 +2030,9 @@
             "demisto/trustar",
             "demisto/distorm3",
             "demisto/pykafka",
-            "demisto/threatconnect-tcex",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://python-future.org",
         "licenses": [
@@ -2537,14 +2537,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -2562,7 +2560,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3258,14 +3258,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -3283,7 +3281,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3657,14 +3657,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -3682,7 +3680,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4336,14 +4336,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -4361,7 +4359,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4524,14 +4524,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -4549,7 +4547,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -4708,14 +4708,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -4733,7 +4731,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -4850,14 +4850,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -4875,7 +4873,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -4959,14 +4959,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -4984,7 +4982,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5350,14 +5350,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -5375,7 +5373,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5518,14 +5518,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -5543,7 +5541,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -5956,14 +5956,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -5981,7 +5979,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6095,14 +6095,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -6120,7 +6118,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6258,14 +6258,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -6283,7 +6281,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -6581,14 +6581,12 @@
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/threatconnect-tcex",
             "demisto/google-cloud-storage",
             "demisto/m2crypto",
             "demisto/googleapi-python3",
             "demisto/matplotlib",
             "demisto/resilient",
             "demisto/taxii2",
-            "demisto/yarapy",
             "demisto/chromium",
             "demisto/smartsheet",
             "demisto/google-kms",
@@ -6606,7 +6604,9 @@
             "demisto/elasticsearch",
             "demisto/pymongo",
             "demisto/netmiko",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/yarapy",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
