@@ -74,8 +74,8 @@
     "Flask": {
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/flask/",
         "licenses": [
@@ -87,8 +87,8 @@
     "Jinja2": {
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -112,8 +112,8 @@
     "MarkupSafe": {
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -238,7 +238,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -253,7 +252,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -305,7 +303,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -359,7 +359,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -374,7 +373,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -427,7 +425,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -503,8 +503,8 @@
     "Werkzeug": {
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/werkzeug/",
         "licenses": [
@@ -914,7 +914,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -929,7 +928,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -982,7 +980,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1080,7 +1080,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -1095,7 +1094,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -1148,7 +1146,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1174,10 +1174,10 @@
         "docker_images": [
             "demisto/keepercommander",
             "demisto/nltk",
-            "demisto/taxii-server",
             "demisto/pyotrs",
             "demisto/teams",
-            "demisto/sane-doc-reports"
+            "demisto/sane-doc-reports",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -1436,7 +1436,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -1451,7 +1450,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -1504,7 +1502,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -1931,7 +1931,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -1946,7 +1945,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -1998,7 +1996,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2083,8 +2083,8 @@
     "gevent": {
         "author": "Denis Bilenko denis.bilenko@gmail.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "http://www.gevent.org/",
         "licenses": [
@@ -2356,8 +2356,8 @@
     "greenlet": {
         "author": "Alexey Borzenkov snaury@gmail.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/python-greenlet/greenlet",
         "licenses": [
@@ -2494,7 +2494,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -2509,7 +2508,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -2562,7 +2560,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -2664,8 +2664,8 @@
     "itsdangerous": {
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/itsdangerous/",
         "licenses": [
@@ -2819,8 +2819,8 @@
     "libtaxii": {
         "author": "The MITRE Corporation taxii@mitre.org",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/taxii"
+            "demisto/taxii",
+            "demisto/taxii-server"
         ],
         "home_page": "https://taxiiproject.github.io/",
         "licenses": [
@@ -2864,11 +2864,11 @@
             "demisto/docxpy",
             "demisto/py3ews",
             "demisto/zeep",
-            "demisto/taxii-server",
             "demisto/pcap-miner",
             "demisto/bs4",
             "demisto/taxii",
-            "demisto/sane-doc-reports"
+            "demisto/sane-doc-reports",
+            "demisto/taxii-server"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -2880,8 +2880,8 @@
     "lz4": {
         "author": "Jonathan Underwood jonathan.underwood@gmail.com",
         "docker_images": [
-            "demisto/taxii-server",
-            "demisto/pykafka"
+            "demisto/pykafka",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/python-lz4/python-lz4",
         "licenses": [
@@ -3040,10 +3040,10 @@
         "author": "Stefan Nordhausen stefan.nordhausen@immobilienscout24.de",
         "docker_images": [
             "demisto/netaddr",
-            "demisto/taxii-server",
             "demisto/teams",
             "demisto/netutils",
-            "demisto/taxii"
+            "demisto/taxii",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/drkjam/netaddr/",
         "licenses": [
@@ -3215,7 +3215,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -3230,7 +3229,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -3283,7 +3281,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3614,7 +3614,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -3629,7 +3628,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -3682,7 +3680,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4293,7 +4293,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -4308,7 +4307,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -4361,7 +4359,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4481,7 +4481,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -4496,7 +4495,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -4549,7 +4547,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -4665,7 +4665,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -4680,7 +4679,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -4733,7 +4731,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -4807,7 +4807,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -4822,7 +4821,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -4875,7 +4873,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -4918,7 +4918,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -4933,7 +4932,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/python3",
             "demisto/python",
@@ -4984,7 +4982,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5307,7 +5307,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -5322,7 +5321,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -5375,7 +5373,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5475,7 +5475,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -5490,7 +5489,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -5543,7 +5541,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -5915,7 +5915,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -5930,7 +5929,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/python3",
             "demisto/python",
@@ -5981,7 +5979,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6052,7 +6052,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -6067,7 +6066,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -6120,7 +6118,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6215,7 +6215,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -6230,7 +6229,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -6283,7 +6281,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -6538,7 +6538,6 @@
             "demisto/dxl2",
             "demisto/circleci",
             "demisto/smb",
-            "demisto/emoji",
             "demisto/aiohttp",
             "demisto/zabbix",
             "demisto/dnspython",
@@ -6553,7 +6552,6 @@
             "demisto/winrm",
             "demisto/sixgill",
             "demisto/marketo",
-            "demisto/taxii-server",
             "demisto/btfl-soup",
             "demisto/faker3",
             "demisto/python3",
@@ -6606,7 +6604,9 @@
             "demisto/netmiko",
             "demisto/pycef",
             "demisto/yarapy",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/taxii-server",
+            "demisto/emoji"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
