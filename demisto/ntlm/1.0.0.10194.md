@@ -1,8 +1,8 @@
-# `demisto/google-cloud-translate:1.0.0.10239`
+# `demisto/ntlm:1.0.0.10194`
 ## Docker Metadata
-- Image Size: `64.64 MB`
-- Image ID: `sha256:6eedd6959add5b8efb44f9c3c4a7783fab3e844ca5c31df62123761db4be6c0a`
-- Created: `2020-08-03T19:40:12.984383756Z`
+- Image Size: `62.52 MB`
+- Image ID: `sha256:3ac918baa6994f742d2058188c4604c8b40a8605c2d190ef3fc4a91d4ede1ca5`
+- Created: `2020-08-03T08:23:15.088861588Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=20.1.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/eff16c878c7fd6b688b9b4c4267695cf1a0bf01b/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=b3153ec0cf7b7bbf9556932aa37e4981c35dc2a2c501d70d91d2795aa532be79`
-  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.10239`
+  - `DOCKER_IMAGE=demisto/ntlm:1.0.0.10194`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ad42b7713160c3d9f4550341321fb8acebf0a9c1`
-  - `org.opencontainers.image.version:1.0.0.10239`
+  - `org.opencontainers.image.revision:45b4d9932acb62091613d9efcdb486fc836115ba`
+  - `org.opencontainers.image.version:1.0.0.10194`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -33,29 +33,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-translate:1.0.0.10239
+Signatures for demisto/ntlm:1.0.0.10194
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.10239         27f878944ff8c348e34807dc7aaa6cbdca5eef4c8d4c145e1ce1c73183b76386   (Repo Admin)
+1.0.0.10194         b4ae9aa86d3742c92708d192a12eb765fe62b58930c8bba1b2f3d610c490683c   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-translate:1.0.0.10239
+Administrative keys for demisto/ntlm:1.0.0.10194
 
-  Repository Key:	09cd7f9d31e99f8c90dae52da10888c2a3779290ce38e52739c73bd91866a375
-  Root Key:	42aa8b794987daaa5c6574d46a5483e72b0bc2daaba1c2e9968501ae78c35283
+  Repository Key:	b98d2d7f00554f997a829c20eefc94d106e6ab907b55531868f1bac2dbff5598
+  Root Key:	abe1f46dd0ad7e68a070d55d4bb9f66c9d87105e87ab545ccdec48375854ff2b
 
 ```
 
 ## `Python Packages`
 
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 4.1.1
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -66,6 +57,15 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.14.1
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -74,6 +74,16 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Homepage: https://github.com/chardet/chardet
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 3.0
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The cryptography developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -93,60 +103,6 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `google-api-core`
-
-* Summary: Google API client core library
-* Version: 1.22.0
-* Pypi: https://pypi.org/project/google-api-core/
-* Homepage: https://github.com/googleapis/python-api-core
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-auth`
-
-* Summary: Google Authentication Library
-* Version: 1.20.0
-* Pypi: https://pypi.org/project/google-auth/
-* Homepage: https://github.com/googleapis/google-auth-library-python
-* Author: Google Cloud Platform googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-cloud-core`
-
-* Summary: Google Cloud API client core library
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/google-cloud-core/
-* Homepage: https://github.com/GoogleCloudPlatform/google-cloud-python
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `google-cloud-translate`
-
-* Summary: Google Cloud Translation API client library
-* Version: 2.0.2
-* Pypi: https://pypi.org/project/google-cloud-translate/
-* Homepage: https://github.com/googleapis/python-translate
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `googleapis-common-protos`
-
-* Summary: Common protobufs used in Google APIs
-* Version: 1.52.0
-* Pypi: https://pypi.org/project/googleapis-common-protos/
-* Homepage: https://github.com/googleapis/python-api-common-protos
-* Author: Google LLC googleapis-packages@google.com
-* License :: OSI Approved :: Apache Software License
-
-### `grpcio`
-
-* Summary: HTTP/2-based RPC framework
-* Version: 1.30.0
-* Pypi: https://pypi.org/project/grpcio/
-* Homepage: https://grpc.io
-* Author: The gRPC Authors grpc-io@googlegroups.com
-* License :: OSI Approved :: Apache Software License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -155,6 +111,15 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
+
+### `ntlm-auth`
+
+* Summary: Creates NTLM authentication structures
+* Version: 1.5.0
+* Pypi: https://pypi.org/project/ntlm-auth/
+* Homepage: https://github.com/jborean93/ntlm-auth
+* Author: Jordan Borean jborean93@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -174,31 +139,13 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `protobuf`
+### `pycparser`
 
-* Summary: Protocol Buffers
-* Version: 3.12.4
-* Pypi: https://pypi.org/project/protobuf/
-* Homepage: https://developers.google.com/protocol-buffers/
-* Author: 
-* License: 3-Clause BSD License
-
-### `pyasn1`
-
-* Summary: ASN.1 types and codecs
-* Version: 0.4.8
-* Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/etingof/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyasn1-modules`
-
-* Summary: A collection of ASN.1-based protocols modules.
-* Version: 0.2.8
-* Pypi: https://pypi.org/project/pyasn1-modules/
-* Homepage: https://github.com/etingof/pyasn1-modules
-* Author: Ilya Etingof etingof@gmail.com
+* Summary: C parser in Python
+* Version: 2.20
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `PySocks`
@@ -265,14 +212,14 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.10239
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `rsa`
+### `requests-ntlm`
 
-* Summary: Pure-Python RSA implementation
-* Version: 4.6
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: https://stuvel.eu/rsa
-* Author: Sybren A. Stuvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
+* Summary: This package allows for HTTP NTLM authentication using the requests library.
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/requests_ntlm/
+* Homepage: https://github.com/requests/requests-ntlm
+* Author: Ben Toews mastahyeti@gmail.com
+* License :: OSI Approved :: ISC License (ISCL)
 
 ### `setuptools`
 
