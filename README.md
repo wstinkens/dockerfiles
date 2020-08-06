@@ -56,6 +56,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/gql](demisto/gql/last.md)
 * [demisto/gvault](demisto/gvault/last.md)
 * [demisto/hashicorp](demisto/hashicorp/last.md)
+* [demisto/imap](demisto/imap/last.md)
 * [demisto/ippysocks](demisto/ippysocks/last.md)
 * [demisto/iputils](demisto/iputils/last.md)
 * [demisto/iso8601](demisto/iso8601/last.md)
@@ -166,4 +167,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-08-05 01:05:31.097733
+Last updated: 2020-08-06 01:07:40.784898
