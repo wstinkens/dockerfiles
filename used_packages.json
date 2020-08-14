@@ -249,7 +249,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -323,7 +322,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -377,7 +378,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -451,7 +451,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -536,6 +538,18 @@
         ],
         "pypi_url": "https://pypi.org/project/Werkzeug/",
         "summary": "The comprehensive WSGI web application library."
+    },
+    "XlsxWriter": {
+        "author": "John McNamara jmcnamara@cpan.org",
+        "docker_images": [
+            "demisto/axonius"
+        ],
+        "home_page": "https://github.com/jmcnamara/XlsxWriter",
+        "licenses": [
+            "License :: OSI Approved :: BSD License"
+        ],
+        "pypi_url": "https://pypi.org/project/XlsxWriter/",
+        "summary": "A Python module for creating Excel XLSX files."
     },
     "aiodns": {
         "author": "Sa\u00fal Ibarra Corretg\u00e9 s@saghul.net",
@@ -677,6 +691,18 @@
         ],
         "pypi_url": "https://pypi.org/project/attrs/",
         "summary": "Classes Without Boilerplate"
+    },
+    "axonius-api-client": {
+        "author": "Axonius support@axonius.com",
+        "docker_images": [
+            "demisto/axonius"
+        ],
+        "home_page": "https://github.com/Axonius/axonius_api_client",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/axonius-api-client/",
+        "summary": "Axonius API client for Python"
     },
     "azure-common": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
@@ -941,7 +967,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -1015,7 +1040,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1048,7 +1075,8 @@
             "demisto/resilient",
             "demisto/py3ews",
             "demisto/netmiko",
-            "demisto/ntlm"
+            "demisto/ntlm",
+            "demisto/axonius"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1114,7 +1142,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -1188,7 +1215,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1219,7 +1248,8 @@
             "demisto/pyotrs",
             "demisto/taxii-server",
             "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/axonius"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -1353,7 +1383,8 @@
             "demisto/resilient",
             "demisto/py3ews",
             "demisto/netmiko",
-            "demisto/ntlm"
+            "demisto/ntlm",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -1491,7 +1522,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -1565,7 +1595,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -1991,7 +2023,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -2065,7 +2096,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2561,7 +2594,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -2635,7 +2667,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -2779,10 +2813,10 @@
             "demisto/ml-telemetry",
             "demisto/snowflake",
             "demisto/python_pancloud_v2",
-            "demisto/boto3py3",
             "demisto/python_pancloud",
             "demisto/jmespath",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -3321,7 +3355,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -3395,7 +3428,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3740,7 +3775,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -3814,7 +3848,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -3998,7 +4034,8 @@
         "docker_images": [
             "demisto/symantec_mss",
             "demisto/snowflake",
-            "demisto/akamai"
+            "demisto/akamai",
+            "demisto/axonius"
         ],
         "home_page": "https://pyopenssl.org/",
         "licenses": [
@@ -4140,7 +4177,8 @@
             "demisto/resilient",
             "demisto/py3ews",
             "demisto/netmiko",
-            "demisto/ntlm"
+            "demisto/ntlm",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -4438,7 +4476,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -4512,7 +4549,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4536,6 +4575,18 @@
         ],
         "pypi_url": "https://pypi.org/project/python-docx/",
         "summary": "Create and update Microsoft Word .docx files."
+    },
+    "python-dotenv": {
+        "author": "Saurabh Kumar me+github@saurabh-kumar.com",
+        "docker_images": [
+            "demisto/axonius"
+        ],
+        "home_page": "https://github.com/theskumar/python-dotenv",
+        "licenses": [
+            "License :: OSI Approved :: BSD License"
+        ],
+        "pypi_url": "https://pypi.org/project/python-dotenv/",
+        "summary": "Add .env support to your django/flask apps in development and deployments"
     },
     "python-libnmap": {
         "author": "Ronald Bister mini.pelle@gmail.com",
@@ -4633,7 +4684,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -4707,7 +4757,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -4823,7 +4875,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -4897,7 +4948,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -4971,7 +5024,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -5045,7 +5097,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5086,7 +5140,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -5160,7 +5213,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5486,7 +5541,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -5560,7 +5614,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5662,7 +5718,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -5736,7 +5791,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -5957,7 +6014,8 @@
         "docker_images": [
             "demisto/keepercommander",
             "demisto/dl",
-            "demisto/pykafka"
+            "demisto/pykafka",
+            "demisto/axonius"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -6121,7 +6179,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -6195,7 +6252,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6268,7 +6327,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -6342,7 +6400,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6437,7 +6497,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -6511,7 +6570,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -6766,7 +6827,6 @@
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/crypto",
-            "demisto/boto3py3",
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/btfl-soup",
@@ -6840,7 +6900,9 @@
             "demisto/smartsheet",
             "demisto/ntlm",
             "demisto/pycef",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/boto3py3",
+            "demisto/axonius"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
