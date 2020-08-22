@@ -63,6 +63,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/iso8601](demisto/iso8601/last.md)
 * [demisto/jmespath](demisto/jmespath/last.md)
 * [demisto/keepercommander](demisto/keepercommander/last.md)
+* [demisto/lacework](demisto/lacework/last.md)
 * [demisto/langdetect](demisto/langdetect/last.md)
 * [demisto/ldap](demisto/ldap/last.md)
 * [demisto/libreoffice](demisto/libreoffice/last.md)
@@ -170,4 +171,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-08-21 01:10:32.809142
+Last updated: 2020-08-22 01:02:20.454895

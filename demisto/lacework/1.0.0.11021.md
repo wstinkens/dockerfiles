@@ -1,8 +1,8 @@
-# `demisto/sklearn:1.0.0.11018`
+# `demisto/lacework:1.0.0.11021`
 ## Docker Metadata
-- Image Size: `155.83 MB`
-- Image ID: `sha256:37e308f9e6197bfa9c1a1bcc7a22bfe2a49f2fc37c33fbc789fe5fb460454b2e`
-- Created: `2020-08-21T01:27:34.030599604Z`
+- Image Size: `21.69 MB`
+- Image ID: `sha256:22fde4c95cbd653a8897c613191f2a158c38f1f52790b60e6c8d8e5fe0ea87cb`
+- Created: `2020-08-21T14:28:56.371712037Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -10,14 +10,14 @@
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.8.5`
-  - `PYTHON_PIP_VERSION=20.2.1`
+  - `PYTHON_PIP_VERSION=20.2.2`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.11018`
+  - `DOCKER_IMAGE=demisto/lacework:1.0.0.11021`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3805bb7a013acef5579277f6ddbc386cf0704f53`
-  - `org.opencontainers.image.version:1.0.0.11018`
+  - `org.opencontainers.image.revision:2f99a0ba9c40eb08a0499d2cc16eb27a47c3f606`
+  - `org.opencontainers.image.version:1.0.0.11021`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.11018
+Signatures for demisto/lacework:1.0.0.11021
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.11018         b08d20d567998e7b0674682c6f84f80f7ae000d27a55d9f9a0efefa5048459a4   (Repo Admin)
+1.0.0.11021         add7fb2a79a65c9eadac3b71f12829b89c0a53e32be4d91e9e7ad4327bcce048   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.11018
+Administrative keys for demisto/lacework:1.0.0.11021
 
-  Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
-  Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
+  Repository Key:	0af709476d50fa97af782cc8dbcab3f3ae34e5e79819fd074c4be9641d02456e
+  Root Key:	77d039ee53a93558f8a079bb333927557d8dba33e0a627ac481cbb4ef5e73d2b
 
 ```
 
@@ -63,19 +63,10 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 7.1.2
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: 
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.4
+* Version: 0.7.6
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
@@ -99,32 +90,14 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `joblib`
+### `laceworksdk`
 
-* Summary: Lightweight pipelining: using Python functions as pipeline jobs.
-* Version: 0.16.0
-* Pypi: https://pypi.org/project/joblib/
-* Homepage: https://joblib.readthedocs.io
-* Author: Gael Varoquaux gael.varoquaux@normalesup.org
-* License :: OSI Approved :: BSD License
-
-### `nltk`
-
-* Summary: Natural Language Toolkit
-* Version: 3.5
-* Pypi: https://pypi.org/project/nltk/
-* Homepage: http://nltk.org/
-* Author: Steven Bird stevenbird1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `numpy`
-
-* Summary: NumPy is the fundamental package for array computing with Python.
-* Version: 1.19.1
-* Pypi: https://pypi.org/project/numpy/
-* Homepage: https://www.numpy.org
-* Author: Travis E. Oliphant et al.
-* License: BSD
+* Summary: Community-developed Python SDK for the Lacework APIs
+* Version: 0.9.5
+* Pypi: https://pypi.org/project/laceworksdk/
+* Homepage: https://github.com/alannix-lw/lacework-python-sdk
+* Author: Alan Nix alan.nix@lacework.net
+* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -134,15 +107,6 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
-
-### `pandas`
-
-* Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 1.1.1
-* Pypi: https://pypi.org/project/pandas/
-* Homepage: https://pandas.pydata.org
-* Author: 
-* License: BSD
 
 ### `pip`
 
@@ -217,28 +181,10 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `scikit-learn`
-
-* Summary: A set of python modules for machine learning and data mining
-* Version: 0.23.2
-* Pypi: https://pypi.org/project/scikit-learn/
-* Homepage: http://scikit-learn.org
-* Author: 
-* License: new BSD
-
-### `scipy`
-
-* Summary: SciPy: Scientific Library for Python
-* Version: 1.5.2
-* Pypi: https://pypi.org/project/scipy/
-* Homepage: https://www.scipy.org
-* Author: 
-* License :: OSI Approved :: BSD License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 49.2.1
+* Version: 49.3.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -253,15 +199,6 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `threadpoolctl`
-
-* Summary: threadpoolctl
-* Version: 2.1.0
-* Pypi: https://pypi.org/project/threadpoolctl/
-* Homepage: https://github.com/joblib/threadpoolctl
-* Author: Thomas Moreau thomas.moreau.2010@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -270,16 +207,6 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `tqdm`
-
-* Summary: Fast, Extensible Progress Meter
-* Version: 4.48.2
-* Pypi: https://pypi.org/project/tqdm/
-* Homepage: https://github.com/tqdm/tqdm
-* Author: 
-* License :: OSI Approved :: MIT License
-* License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
 ### `tzlocal`
 
@@ -314,7 +241,6 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
-* bash-5.0.17-r0 x86_64 {bash}
 * busybox-1.31.1-r19 x86_64 {busybox}
 * ca-certificates-20191127-r4 x86_64 {ca-certificates}
 * ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
@@ -328,14 +254,9 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
 * libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
-* libgcc-9.3.0-r2 x86_64 {gcc}
-* libgfortran-9.3.0-r2 x86_64 {gcc}
-* libgomp-9.3.0-r2 x86_64 {gcc}
 * libintl-0.20.2-r0 x86_64 {gettext}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
-* libquadmath-9.3.0-r2 x86_64 {gcc}
 * libssl1.1-1.1.1g-r0 x86_64 {openssl}
-* libstdc++-9.3.0-r2 x86_64 {gcc}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
@@ -345,7 +266,6 @@ Administrative keys for demisto/sklearn:1.0.0.11018
 * musl-utils-1.1.24-r9 x86_64 {musl}
 * ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
-* openblas-0.3.9-r2 x86_64 {openblas}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
