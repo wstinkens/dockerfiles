@@ -112,7 +112,8 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -137,7 +138,8 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/taxii-server",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -308,7 +310,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -336,8 +337,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -438,7 +440,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -466,8 +467,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -697,7 +699,8 @@
             "demisto/zeep",
             "demisto/aiohttp",
             "demisto/threatconnect-tcex",
-            "demisto/pymisp"
+            "demisto/pymisp",
+            "demisto/sklearn"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1028,7 +1031,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -1056,8 +1058,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1204,7 +1207,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -1232,8 +1234,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1342,8 +1345,8 @@
         "author": "\u0141ukasz Langa lukasz@langa.pl",
         "docker_images": [
             "demisto/resilient",
-            "demisto/chromium",
-            "demisto/trustar"
+            "demisto/trustar",
+            "demisto/chromium"
         ],
         "home_page": "https://github.com/jaraco/configparser/",
         "licenses": [
@@ -1585,7 +1588,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -1613,8 +1615,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -1697,6 +1700,18 @@
         ],
         "pypi_url": "https://pypi.org/project/devodsconnector/",
         "summary": "APIs for querying and loading data into Devo"
+    },
+    "dill": {
+        "author": "Mike McKerns",
+        "docker_images": [
+            "demisto/sklearn"
+        ],
+        "home_page": "https://pypi.org/project/dill",
+        "licenses": [
+            "License :: OSI Approved :: BSD License"
+        ],
+        "pypi_url": "https://pypi.org/project/dill/",
+        "summary": "serialize all of python"
     },
     "distorm3": {
         "author": "Gil Dabah distorm@gmail.com",
@@ -1865,6 +1880,18 @@
         ],
         "pypi_url": "https://pypi.org/project/elasticsearch-dsl/",
         "summary": "Python client for Elasticsearch"
+    },
+    "eli5": {
+        "author": "Mikhail Korobov, Konstantin Lopuhin kmike84@gmail.com, kostia.lopuhin@gmail.com",
+        "docker_images": [
+            "demisto/sklearn"
+        ],
+        "home_page": "https://github.com/TeamHG-Memex/eli5",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/eli5/",
+        "summary": "Debug machine learning classifiers and explain their predictions"
     },
     "emoji": {
         "author": "Taehoon Kim and Kevin Wurster carpedm20@gmail.com",
@@ -2087,7 +2114,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -2115,8 +2141,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2471,6 +2498,18 @@
         "pypi_url": "https://pypi.org/project/graphql-core/",
         "summary": "GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL."
     },
+    "graphviz": {
+        "author": "Sebastian Bank sebastian.bank@uni-leipzig.de",
+        "docker_images": [
+            "demisto/sklearn"
+        ],
+        "home_page": "https://github.com/xflr6/graphviz",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/graphviz/",
+        "summary": "Simple Python interface for Graphviz"
+    },
     "greenlet": {
         "author": "Alexey Borzenkov snaury@gmail.com",
         "docker_images": [
@@ -2659,7 +2698,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -2687,8 +2725,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3327,11 +3366,11 @@
             "demisto/dl",
             "demisto/matplotlib",
             "demisto/sane-doc-reports",
-            "demisto/chromium",
             "demisto/pandas",
             "demisto/devo",
             "demisto/fasttext",
             "demisto/fetch-data",
+            "demisto/chromium",
             "demisto/sklearn"
         ],
         "home_page": "https://www.numpy.org",
@@ -3461,7 +3500,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -3489,8 +3527,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3882,7 +3921,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -3910,8 +3948,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4598,7 +4637,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -4626,8 +4664,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4807,7 +4846,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -4835,8 +4873,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -4999,7 +5038,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -5027,8 +5065,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5149,7 +5188,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -5177,8 +5215,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5267,7 +5306,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -5295,8 +5333,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5669,7 +5708,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -5697,8 +5735,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5847,7 +5886,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -5875,8 +5913,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6098,7 +6137,8 @@
             "demisto/keepercommander",
             "demisto/dl",
             "demisto/pykafka",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/sklearn"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -6310,7 +6350,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -6338,8 +6377,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6499,7 +6539,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -6527,8 +6566,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6670,7 +6710,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -6698,8 +6737,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7001,7 +7041,6 @@
             "demisto/sane-doc-reports",
             "demisto/python3-deb",
             "demisto/gvault",
-            "demisto/chromium",
             "demisto/google-api",
             "demisto/google-vision-api",
             "demisto/boto3py3",
@@ -7029,8 +7068,9 @@
             "demisto/distorm3",
             "demisto/algorithmia",
             "demisto/ntlm",
-            "demisto/sklearn",
-            "demisto/lacework"
+            "demisto/lacework",
+            "demisto/chromium",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
