@@ -247,7 +247,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -333,13 +332,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -377,7 +377,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -463,13 +462,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -582,8 +582,8 @@
     "aiohttp": {
         "author": "Nikolay Kim fafhrd91@gmail.com",
         "docker_images": [
-            "demisto/slack",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/aiohttp",
         "licenses": [
@@ -682,8 +682,8 @@
     "async-timeout": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/async_timeout/",
         "licenses": [
@@ -695,12 +695,12 @@
     "attrs": {
         "author": "Hynek Schlawack hs@ox.cx",
         "docker_images": [
-            "demisto/slack",
             "demisto/zeep",
             "demisto/aiohttp",
             "demisto/threatconnect-tcex",
             "demisto/pymisp",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/slack"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -969,7 +969,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -1055,13 +1054,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1078,7 +1078,6 @@
             "demisto/ews",
             "demisto/snowflake",
             "demisto/py-ews",
-            "demisto/slack",
             "demisto/resilient",
             "demisto/py3ews",
             "demisto/crypto",
@@ -1095,7 +1094,8 @@
             "demisto/ntlm",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/slack"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1145,7 +1145,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -1231,13 +1230,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1526,7 +1526,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -1612,13 +1611,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2052,7 +2052,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -2138,13 +2137,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2636,7 +2636,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -2722,13 +2721,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3222,8 +3222,8 @@
     "multidict": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/multidict",
         "licenses": [
@@ -3438,7 +3438,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -3524,13 +3523,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3859,7 +3859,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -3945,13 +3944,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4276,7 +4276,6 @@
             "demisto/ews",
             "demisto/snowflake",
             "demisto/py-ews",
-            "demisto/slack",
             "demisto/resilient",
             "demisto/py3ews",
             "demisto/crypto",
@@ -4293,7 +4292,8 @@
             "demisto/ntlm",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -4575,7 +4575,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -4661,13 +4660,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4784,7 +4784,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -4870,13 +4869,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -4976,7 +4976,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -5062,13 +5061,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5126,7 +5126,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -5212,13 +5211,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5245,7 +5245,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -5330,13 +5329,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5646,7 +5646,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -5732,13 +5731,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5824,7 +5824,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -5910,13 +5909,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6290,7 +6290,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -6375,13 +6374,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6478,7 +6478,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -6564,13 +6563,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6649,7 +6649,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -6735,13 +6734,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -6980,7 +6980,6 @@
             "demisto/splunksdk",
             "demisto/nltk",
             "demisto/dxl",
-            "demisto/slack",
             "demisto/bs4",
             "demisto/readpdf",
             "demisto/python_zipfile",
@@ -7066,13 +7065,14 @@
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
-            "demisto/boto3py3",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
-            "demisto/py42",
             "demisto/sklearn",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/py42"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -7172,8 +7172,8 @@
     "yarl": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
-            "demisto/slack",
-            "demisto/aiohttp"
+            "demisto/aiohttp",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/aio-libs/yarl/",
         "licenses": [
