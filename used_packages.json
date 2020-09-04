@@ -328,7 +328,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -339,6 +338,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
@@ -458,7 +458,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -469,6 +468,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
@@ -917,10 +917,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/tkem/cachetools",
         "licenses": [
@@ -1050,7 +1050,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -1061,6 +1060,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://certifi.io/",
@@ -1226,7 +1226,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -1237,6 +1236,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/chardet/chardet",
@@ -1607,7 +1607,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -1618,6 +1617,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
@@ -2133,7 +2133,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -2144,6 +2143,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "http://github.com/Suor/funcy",
@@ -2248,10 +2248,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -2265,9 +2265,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/google-api-python-client/",
         "licenses": [
@@ -2285,10 +2285,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -2302,9 +2302,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2",
         "licenses": [
@@ -2463,10 +2463,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -2544,8 +2544,8 @@
             "demisto/google-cloud-storage",
             "demisto/google-cloud-translate",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -2573,9 +2573,9 @@
             "demisto/bigquery",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/httplib2/httplib2",
         "licenses": [
@@ -2717,7 +2717,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -2728,6 +2727,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/kjd/idna",
@@ -3387,9 +3387,9 @@
             "demisto/bigquery",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/oauth2client/",
         "licenses": [
@@ -3519,7 +3519,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -3530,6 +3529,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
@@ -3940,7 +3940,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -3951,6 +3950,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://pip.pypa.io/",
@@ -4055,10 +4055,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -4186,10 +4186,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -4207,10 +4207,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/etingof/pyasn1-modules",
         "licenses": [
@@ -4656,7 +4656,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -4667,6 +4666,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://dateutil.readthedocs.io",
@@ -4865,7 +4865,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -4876,6 +4875,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "http://pythonhosted.org/pytz",
@@ -5057,7 +5057,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -5068,6 +5067,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
@@ -5207,7 +5207,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -5218,6 +5217,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "http://python-requests.org",
@@ -5325,7 +5325,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -5336,6 +5335,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "http://github.com/dashea/requests-file",
@@ -5449,10 +5449,10 @@
             "demisto/google-k8s-engine",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -5727,7 +5727,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -5738,6 +5737,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/pypa/setuptools",
@@ -5905,7 +5905,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -5916,6 +5915,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/benjaminp/six",
@@ -6370,7 +6370,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -6381,6 +6380,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
@@ -6559,7 +6559,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -6570,6 +6569,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
@@ -6596,9 +6596,9 @@
         "docker_images": [
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://uritemplate.readthedocs.org",
         "licenses": [
@@ -6730,7 +6730,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -6741,6 +6740,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
@@ -7061,7 +7061,6 @@
             "demisto/chromium",
             "demisto/gvault",
             "demisto/google-api",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/google-kms",
@@ -7072,6 +7071,7 @@
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
+            "demisto/google-vision-api",
             "demisto/boto3py3"
         ],
         "home_page": "https://github.com/pypa/wheel",
