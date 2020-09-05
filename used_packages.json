@@ -282,7 +282,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -333,13 +332,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -412,7 +412,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -463,13 +462,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -621,7 +621,8 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2"
+            "demisto/taxii2",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://www.antlr.org",
         "licenses": [
@@ -697,10 +698,10 @@
         "docker_images": [
             "demisto/zeep",
             "demisto/aiohttp",
-            "demisto/threatconnect-tcex",
             "demisto/pymisp",
             "demisto/sklearn",
-            "demisto/slack"
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1004,7 +1005,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -1055,13 +1055,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1094,8 +1095,8 @@
             "demisto/google-api-py3",
             "demisto/google-kms",
             "demisto/axonius",
-            "demisto/slack",
-            "demisto/netmiko"
+            "demisto/netmiko",
+            "demisto/slack"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1180,7 +1181,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -1231,13 +1231,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1306,9 +1307,9 @@
         "author": "Arnon Yaari tartley@tartley.com",
         "docker_images": [
             "demisto/keepercommander",
-            "demisto/threatconnect-tcex",
             "demisto/pyotrs",
-            "demisto/chromium"
+            "demisto/chromium",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/tartley/colorama",
         "licenses": [
@@ -1561,7 +1562,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -1612,13 +1612,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2087,7 +2088,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -2138,13 +2138,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2173,12 +2174,12 @@
             "demisto/snowflake",
             "demisto/py-ews",
             "demisto/pykafka",
-            "demisto/threatconnect-tcex",
             "demisto/pycef",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/distorm3",
-            "demisto/netmiko"
+            "demisto/netmiko",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://python-future.org",
         "licenses": [
@@ -2671,7 +2672,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -2722,13 +2722,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -2871,11 +2872,11 @@
             "demisto/boto3",
             "demisto/ml-telemetry",
             "demisto/snowflake",
-            "demisto/threatconnect-tcex",
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
             "demisto/jmespath",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -2901,8 +2902,8 @@
     "jsonschema": {
         "author": "Julian Berman Julian@GrayVines.com",
         "docker_images": [
-            "demisto/threatconnect-tcex",
-            "demisto/pymisp"
+            "demisto/pymisp",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/Julian/jsonschema",
         "licenses": [
@@ -3473,7 +3474,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -3524,13 +3524,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3894,7 +3895,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -3945,13 +3945,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4292,8 +4293,8 @@
             "demisto/google-api-py3",
             "demisto/google-kms",
             "demisto/axonius",
-            "demisto/slack",
-            "demisto/netmiko"
+            "demisto/netmiko",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -4488,8 +4489,8 @@
     "pyrsistent": {
         "author": "Tobias Gustafsson tobias.l.gustafsson@gmail.com",
         "docker_images": [
-            "demisto/threatconnect-tcex",
-            "demisto/pymisp"
+            "demisto/pymisp",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/tobgu/pyrsistent/",
         "licenses": [
@@ -4610,7 +4611,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -4661,13 +4661,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4819,7 +4820,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -4870,13 +4870,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5011,7 +5012,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -5062,13 +5062,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5161,7 +5162,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -5212,13 +5212,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5280,7 +5281,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -5330,13 +5330,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5681,7 +5682,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -5732,13 +5732,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5754,7 +5755,8 @@
             "demisto/opencti",
             "demisto/stix2",
             "demisto/taxii2",
-            "demisto/imap"
+            "demisto/imap",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/simplejson/simplejson",
         "licenses": [
@@ -5859,7 +5861,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -5910,13 +5911,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6086,7 +6088,8 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2"
+            "demisto/taxii2",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://oasis-open.github.io/cti-documentation/",
         "licenses": [
@@ -6100,7 +6103,8 @@
         "docker_images": [
             "demisto/opencti",
             "demisto/stix2",
-            "demisto/taxii2"
+            "demisto/taxii2",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/oasis-open/cti-pattern-validator",
         "licenses": [
@@ -6325,7 +6329,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -6375,13 +6378,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6513,7 +6517,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -6564,13 +6567,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6684,7 +6688,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -6735,13 +6738,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7015,7 +7019,6 @@
             "demisto/threatconnect-py3-sdk",
             "demisto/marketo",
             "demisto/unzip",
-            "demisto/threatconnect-tcex",
             "demisto/gql",
             "demisto/smartsheet",
             "demisto/pycef",
@@ -7066,13 +7069,14 @@
             "demisto/google-kms",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/slack",
             "demisto/py42",
             "demisto/sane-doc-reports",
             "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/slack",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -7096,8 +7100,8 @@
     "wrapt": {
         "author": "Graham Dumpleton Graham.Dumpleton@gmail.com",
         "docker_images": [
-            "demisto/threatconnect-tcex",
-            "demisto/pymisp"
+            "demisto/pymisp",
+            "demisto/threatconnect-tcex"
         ],
         "home_page": "https://github.com/GrahamDumpleton/wrapt",
         "licenses": [
