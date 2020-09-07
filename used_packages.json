@@ -333,13 +333,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -463,13 +463,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1056,13 +1056,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1232,13 +1232,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1613,13 +1613,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2139,13 +2139,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2723,13 +2723,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3525,13 +3525,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3946,13 +3946,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4088,8 +4088,7 @@
         ],
         "home_page": "https://psycopg.org/",
         "licenses": [
-            "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
-            "License :: OSI Approved :: Zope Public License"
+            "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)"
         ],
         "pypi_url": "https://pypi.org/project/psycopg2-binary/",
         "summary": "psycopg2 - Python-PostgreSQL Database Adapter"
@@ -4662,13 +4661,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4871,13 +4870,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5063,13 +5062,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5213,13 +5212,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5331,13 +5330,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5733,13 +5732,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5912,13 +5911,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6379,13 +6378,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6568,13 +6567,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6739,13 +6738,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7070,13 +7069,13 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/sane-doc-reports",
-            "demisto/genericsql",
             "demisto/netmiko",
             "demisto/google-vision-api",
             "demisto/boto3py3",
             "demisto/slack",
             "demisto/threatconnect-tcex",
-            "demisto/smb"
+            "demisto/smb",
+            "demisto/genericsql"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
