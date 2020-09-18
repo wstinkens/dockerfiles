@@ -296,7 +296,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -312,7 +311,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -338,8 +336,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -426,7 +426,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -442,7 +441,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -468,8 +466,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -698,10 +698,10 @@
         "docker_images": [
             "demisto/zeep",
             "demisto/aiohttp",
-            "demisto/slack",
             "demisto/pymisp",
             "demisto/sklearn",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/slack"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1019,7 +1019,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -1035,7 +1034,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -1061,8 +1059,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1090,13 +1090,13 @@
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/google-api-py3",
             "demisto/oauthlib",
-            "demisto/python_pancloud_v2"
+            "demisto/python_pancloud_v2",
+            "demisto/slack"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1195,7 +1195,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -1211,7 +1210,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -1237,8 +1235,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1576,7 +1576,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -1592,7 +1591,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -1618,8 +1616,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2102,7 +2102,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -2118,7 +2117,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -2144,8 +2142,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2686,7 +2686,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -2702,7 +2701,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -2728,8 +2726,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3488,7 +3488,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -3504,7 +3503,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -3530,8 +3528,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3909,7 +3909,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -3925,7 +3924,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -3951,8 +3949,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4287,13 +4287,13 @@
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/teams",
             "demisto/crypto",
             "demisto/python_pancloud",
             "demisto/google-api-py3",
             "demisto/oauthlib",
-            "demisto/python_pancloud_v2"
+            "demisto/python_pancloud_v2",
+            "demisto/slack"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -4624,7 +4624,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -4640,7 +4639,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -4666,8 +4664,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4833,7 +4833,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -4849,7 +4848,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -4875,8 +4873,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5025,7 +5025,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -5041,7 +5040,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -5067,8 +5065,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5175,7 +5175,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -5191,7 +5190,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -5217,8 +5215,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5294,7 +5294,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -5310,7 +5309,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -5335,8 +5333,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5695,7 +5695,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -5711,7 +5710,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -5737,8 +5735,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5874,7 +5874,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -5890,7 +5889,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -5916,8 +5914,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6342,7 +6342,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -6358,7 +6357,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -6383,8 +6381,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6530,7 +6530,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -6546,7 +6545,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -6572,8 +6570,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6701,7 +6701,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -6717,7 +6716,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -6743,8 +6741,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7032,7 +7032,6 @@
             "demisto/bigquery",
             "demisto/python-deb",
             "demisto/pcap-http-extractor",
-            "demisto/elasticsearch",
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/devo",
@@ -7048,7 +7047,6 @@
             "demisto/axonius",
             "demisto/py42",
             "demisto/netmiko",
-            "demisto/slack",
             "demisto/smb",
             "demisto/pymisp",
             "demisto/pandas",
@@ -7074,8 +7072,10 @@
             "demisto/python_pancloud_v2",
             "demisto/matplotlib",
             "demisto/google-vision-api",
+            "demisto/google-k8s-engine",
             "demisto/boto3py3",
-            "demisto/google-k8s-engine"
+            "demisto/slack",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
