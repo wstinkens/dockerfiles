@@ -337,9 +337,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -467,9 +467,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1060,9 +1060,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1236,9 +1236,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1617,9 +1617,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2143,9 +2143,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2727,9 +2727,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3529,9 +3529,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3950,9 +3950,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4665,9 +4665,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4874,9 +4874,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5066,9 +5066,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5216,9 +5216,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5334,9 +5334,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5736,9 +5736,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5915,9 +5915,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6382,9 +6382,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6571,9 +6571,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6742,9 +6742,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7073,9 +7073,9 @@
             "demisto/matplotlib",
             "demisto/google-vision-api",
             "demisto/google-k8s-engine",
-            "demisto/boto3py3",
             "demisto/slack",
-            "demisto/elasticsearch"
+            "demisto/elasticsearch",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
