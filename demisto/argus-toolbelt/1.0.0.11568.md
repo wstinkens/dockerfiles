@@ -1,8 +1,8 @@
-# `demisto/crypto:1.0.0.11553`
+# `demisto/argus-toolbelt:1.0.0.11568`
 ## Docker Metadata
-- Image Size: `24.33 MB`
-- Image ID: `sha256:9f50f8d23e7d07e1bd32377a7c9976b976276cbba2e66274fe90918d87db7d76`
-- Created: `2020-09-22T19:01:22.198395774Z`
+- Image Size: `22.55 MB`
+- Image ID: `sha256:aab978c41aabec7d2406b0c9fb2eb3a19c1bc909e9cff76f03cc2c6a24bf5951`
+- Created: `2020-09-22T21:49:19.972722645Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -10,14 +10,14 @@
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.8.5`
-  - `PYTHON_PIP_VERSION=20.2.1`
+  - `PYTHON_PIP_VERSION=20.2.2`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.11553`
+  - `DOCKER_IMAGE=demisto/argus-toolbelt:1.0.0.11568`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:912cf2e478f5f190498b8deb0cfd7eae906d34f7`
-  - `org.opencontainers.image.version:1.0.0.11553`
+  - `org.opencontainers.image.revision:5580485b3cb9639bad668bea1a0e1ef243c0d63c`
+  - `org.opencontainers.image.version:1.0.0.11568`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,20 +30,38 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.11553
+Signatures for demisto/argus-toolbelt:1.0.0.11568
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.11553         ee40b69a66e6ef67196255385e4f222fc0d26a30e68940577758fff5d4bcef6f   (Repo Admin)
+1.0.0.11568         81c4e7a9b912d3c5c7a00960aa01dda89e420b898e112a78344ee21400338891   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.11553
+Administrative keys for demisto/argus-toolbelt:1.0.0.11568
 
-  Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
-  Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
+  Repository Key:	f8adef8bf4435c65d5978dd102ae48b29ab4b71d66ffc3a80fa05ca5f2503855
+  Root Key:	9e4fc820cbbfedb52175005447b910adb588f852ad15f9114b983a4cfc166af7
 
 ```
 
 ## `Python Packages`
 
+
+### `argus-api`
+
+* Summary: SDK for the Argus API
+* Version: 1.2.1
+* Pypi: https://pypi.org/project/argus-api/
+* Homepage: https://mnemonic.no
+* Author: mnemonic opensource@mnemonic.no
+* License: ISC
+
+### `argus-toolbelt`
+
+* Summary: A framework for creating interactive commands with Argus' APIs
+* Version: 3.8.1
+* Pypi: https://pypi.org/project/argus-toolbelt/
+* Homepage: 
+* Author: mnemonic opensource@mnemonic.no
+* License: ISC
 
 ### `certifi`
 
@@ -54,15 +72,6 @@ Administrative keys for demisto/crypto:1.0.0.11553
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.14.3
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -72,20 +81,28 @@ Administrative keys for demisto/crypto:1.0.0.11553
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `cryptography`
+### `colorama`
 
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 3.1.1
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: https://github.com/pyca/cryptography
-* Author: The cryptography developers cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
+* Summary: Cross-platform colored terminal text.
+* Version: 0.4.3
+* Pypi: https://pypi.org/project/colorama/
+* Homepage: https://github.com/tartley/colorama
+* Author: Jonathan Hartley tartley@tartley.com
 * License :: OSI Approved :: BSD License
+
+### `colorlog`
+
+* Summary: Log formatting with colors!
+* Version: 4.2.1
+* Pypi: https://pypi.org/project/colorlog/
+* Homepage: https://github.com/borntyping/python-colorlog
+* Author: Sam Clements sam@borntyping.co.uk
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.4
+* Version: 0.7.6
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
@@ -109,6 +126,24 @@ Administrative keys for demisto/crypto:1.0.0.11553
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
+### `Jinja2`
+
+* Summary: A very fast and expressive template engine.
+* Version: 2.11.2
+* Pypi: https://pypi.org/project/Jinja2/
+* Homepage: https://palletsprojects.com/p/jinja/
+* Author: Armin Ronacher armin.ronacher@active-4.com
+* License :: OSI Approved :: BSD License
+
+### `MarkupSafe`
+
+* Summary: Safely add untrusted strings to HTML/XML markup.
+* Version: 1.1.1
+* Pypi: https://pypi.org/project/MarkupSafe/
+* Homepage: https://palletsprojects.com/p/markupsafe/
+* Author: Armin Ronacher armin.ronacher@active-4.com
+* License :: OSI Approved :: BSD License
+
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -126,15 +161,6 @@ Administrative keys for demisto/crypto:1.0.0.11553
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.20
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -203,7 +229,7 @@ Administrative keys for demisto/crypto:1.0.0.11553
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 49.2.1
+* Version: 49.3.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -216,6 +242,15 @@ Administrative keys for demisto/crypto:1.0.0.11553
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
+* License :: OSI Approved :: MIT License
+
+### `terminaltables`
+
+* Summary: Generate simple tables in terminals from a nested list of strings.
+* Version: 3.1.0
+* Pypi: https://pypi.org/project/terminaltables/
+* Homepage: https://github.com/Robpol86/terminaltables
+* Author: @Robpol86 robpol86@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `tldextract`
