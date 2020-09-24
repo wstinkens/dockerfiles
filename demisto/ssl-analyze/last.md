@@ -1,8 +1,8 @@
-# `demisto/lacework:1.0.0.11597`
+# `demisto/ssl-analyze:1.0.0.11644`
 ## Docker Metadata
-- Image Size: `21.69 MB`
-- Image ID: `sha256:0edfa16142af412b7d43c15a956e7ca6c3e11fa9a854c21bdd87ada33d20205b`
-- Created: `2020-09-23T12:44:39.750737353Z`
+- Image Size: `34.39 MB`
+- Image ID: `sha256:60149373c21c4e4eba972f8ec22d75dc086097564ad63b090a1826bb4290dfcf`
+- Created: `2020-09-23T16:41:51.784243984Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -10,14 +10,14 @@
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.8.5`
-  - `PYTHON_PIP_VERSION=20.2.2`
+  - `PYTHON_PIP_VERSION=20.2.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
-  - `DOCKER_IMAGE=demisto/lacework:1.0.0.11597`
+  - `DOCKER_IMAGE=demisto/ssl-analyze:1.0.0.11644`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8b4795b737e90ed84a99cc7ba0c6ebe1e7791674`
-  - `org.opencontainers.image.version:1.0.0.11597`
+  - `org.opencontainers.image.revision:7596e4201a2a3c34616e9171ac32f6993147104a`
+  - `org.opencontainers.image.version:1.0.0.11644`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,15 +30,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/lacework:1.0.0.11597
+Signatures for demisto/ssl-analyze:1.0.0.11644
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.11597         7b1fa65ea1fdf8ea60d309bd3b31ea93154232677fbeb08f473e4afd5f4593db   (Repo Admin)
+1.0.0.11644         1a098214de1ce04d69b218c0f1ba9dab92418994df1373db53c8f2973f6770fe   (Repo Admin)
 
-Administrative keys for demisto/lacework:1.0.0.11597
+Administrative keys for demisto/ssl-analyze:1.0.0.11644
 
-  Repository Key:	0af709476d50fa97af782cc8dbcab3f3ae34e5e79819fd074c4be9641d02456e
-  Root Key:	77d039ee53a93558f8a079bb333927557d8dba33e0a627ac481cbb4ef5e73d2b
+  Repository Key:	e2193cc5e21c679c88658343b6c5bd41fa4ca42ec1ab04b029a103e50d9f2c74
+  Root Key:	822ecc9d09fdcff50bc43aaca408919dde2323a2d62e5ad088eb0157a26e9c17
 
 ```
 
@@ -54,6 +54,15 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.14.3
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -63,10 +72,20 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 3.1.1
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The cryptography developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.6
+* Version: 0.7.4
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
@@ -90,15 +109,6 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `laceworksdk`
-
-* Summary: Community-developed Python SDK for the Lacework APIs
-* Version: 0.9.7
-* Pypi: https://pypi.org/project/laceworksdk/
-* Homepage: https://github.com/alannix-lw/lacework-python-sdk
-* Author: Alan Nix alan.nix@lacework.net
-* License :: OSI Approved :: MIT License
-
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -108,6 +118,15 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `pem`
+
+* Summary: Easy PEM file parsing in Python.
+* Version: 20.1.0
+* Pypi: https://pypi.org/project/pem/
+* Homepage: https://pem.readthedocs.io/
+* Author: Hynek Schlawack hs@ox.cx
+* License :: OSI Approved :: MIT License
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -116,6 +135,15 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
+
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 2.20
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
+* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -184,7 +212,7 @@ Administrative keys for demisto/lacework:1.0.0.11597
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 49.3.1
+* Version: 49.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -256,6 +284,10 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * libffi-3.3-r2 x86_64 {libffi}
 * libintl-0.20.2-r0 x86_64 {gettext}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
+* libressl-dev-3.1.2-r0 x86_64 {libressl}
+* libressl3.1-libcrypto-3.1.2-r0 x86_64 {libressl}
+* libressl3.1-libssl-3.1.2-r0 x86_64 {libressl}
+* libressl3.1-libtls-3.1.2-r0 x86_64 {libressl}
 * libssl1.1-1.1.1g-r0 x86_64 {openssl}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
@@ -266,6 +298,7 @@ Administrative keys for demisto/lacework:1.0.0.11597
 * musl-utils-1.1.24-r9 x86_64 {musl}
 * ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
+* pkgconf-1.7.2-r0 x86_64 {pkgconf}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
