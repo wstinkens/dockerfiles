@@ -112,9 +112,9 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/taxii-server",
-            "demisto/sklearn",
             "demisto/argus-toolbelt",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -139,9 +139,9 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/taxii-server",
-            "demisto/sklearn",
             "demisto/argus-toolbelt",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -316,11 +316,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -343,7 +341,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -448,11 +448,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -475,7 +473,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -729,9 +729,9 @@
             "demisto/zeep",
             "demisto/aiohttp",
             "demisto/pymisp",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
-            "demisto/slack"
+            "demisto/slack",
+            "demisto/sklearn"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1067,11 +1067,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -1094,7 +1092,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1246,11 +1246,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -1273,7 +1271,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1303,9 +1303,9 @@
             "demisto/pyotrs",
             "demisto/axonius",
             "demisto/fetch-data",
-            "demisto/sklearn",
             "demisto/sane-doc-reports",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -1632,11 +1632,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -1659,7 +1657,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2160,11 +2160,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -2187,7 +2185,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2746,11 +2746,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -2773,7 +2771,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3415,9 +3415,9 @@
             "demisto/pandas",
             "demisto/fetch-data",
             "demisto/chromium",
-            "demisto/sklearn",
             "demisto/sane-doc-reports",
-            "demisto/matplotlib"
+            "demisto/matplotlib",
+            "demisto/sklearn"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -3550,11 +3550,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -3577,7 +3575,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -3985,11 +3985,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -4012,7 +4010,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4241,7 +4241,6 @@
             "demisto/google-cloud-translate",
             "demisto/google-kms",
             "demisto/smb",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/google-k8s-engine",
             "demisto/bigquery",
@@ -4249,7 +4248,8 @@
             "demisto/google-vision-api",
             "demisto/google-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -4703,11 +4703,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -4730,7 +4728,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -4914,11 +4914,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -4941,7 +4939,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5108,11 +5108,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -5135,7 +5133,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5260,11 +5260,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -5287,7 +5285,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5381,11 +5381,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/sane-doc-reports",
             "demisto/matplotlib",
@@ -5407,7 +5405,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5516,14 +5516,14 @@
             "demisto/google-cloud-storage",
             "demisto/google-cloud-translate",
             "demisto/google-kms",
-            "demisto/btfl-soup",
             "demisto/google-k8s-engine",
             "demisto/bigquery",
             "demisto/gvault",
             "demisto/google-vision-api",
             "demisto/google-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -5784,11 +5784,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -5811,7 +5809,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -5965,11 +5965,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -5992,7 +5990,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6447,11 +6447,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/sane-doc-reports",
             "demisto/matplotlib",
@@ -6473,7 +6471,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -6637,11 +6637,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -6664,7 +6662,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -6810,11 +6810,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -6837,7 +6835,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7143,11 +7143,9 @@
             "demisto/fetch-data",
             "demisto/splunksdk",
             "demisto/chromium",
-            "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/genericsql",
             "demisto/taxii2",
-            "demisto/sklearn",
             "demisto/threatconnect-tcex",
             "demisto/faker3",
             "demisto/sane-doc-reports",
@@ -7170,7 +7168,9 @@
             "demisto/oauthlib",
             "demisto/python_pancloud_v2",
             "demisto/ssl-analyze",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/btfl-soup",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
