@@ -1,53 +1,44 @@
-# `demisto/ippysocks:1.0.0.11896`
+# `demisto/xslxwriter:1.0.0.11942`
 ## Docker Metadata
-- Image Size: `105.85 MB`
-- Image ID: `sha256:dc4a4f211632a3ddc3f6aeb10ad4b42e7e414e43b4ed67e0cc18a4990cb50b95`
-- Created: `2020-09-29T13:45:55.895895563Z`
+- Image Size: `21.93 MB`
+- Image ID: `sha256:69f536dbf64af07a879ca8dad9865789b197e9c887a35e2ee0ac89ae6ccb7d6e`
+- Created: `2020-09-29T14:49:23.232762301Z`
 - Arch: `linux`/`amd64`
-- Command: `["python2"]`
+- Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `PYTHONIOENCODING=UTF-8`
-  - `GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF`
-  - `PYTHON_VERSION=2.7.18`
-  - `PYTHON_PIP_VERSION=20.0.2`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d59197a3c169cef378a22428a3fa99d33e080a5d/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=421ac1d44c0cf9730a088e337867d974b91bdce4ea2636099275071878cc189e`
-  - `DOCKER_IMAGE=demisto/ippysocks:1.0.0.11896`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.8.5`
+  - `PYTHON_PIP_VERSION=20.2.2`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
+  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.11942`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e0c06fc8d58a45fc266ec4d07e474a1466cf762e`
-  - `org.opencontainers.image.version:1.0.0.11896`
+  - `org.opencontainers.image.revision:068aa0619f2d1244e825b4de304be7d90057fcfd`
+  - `org.opencontainers.image.version:1.0.0.11942`
 
 - OS Release:
-  - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
-  - `NAME="Debian GNU/Linux"`
-  - `VERSION_ID="10"`
-  - `VERSION="10 (buster)"`
-  - `VERSION_CODENAME=buster`
-  - `ID=debian`
-  - `HOME_URL="https://www.debian.org/"`
-  - `SUPPORT_URL="https://www.debian.org/support"`
-  - `BUG_REPORT_URL="https://bugs.debian.org/"`
+  - `NAME="Alpine Linux"`
+  - `ID=alpine`
+  - `VERSION_ID=3.12.0`
+  - `PRETTY_NAME="Alpine Linux v3.12"`
+  - `HOME_URL="https://alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/ippysocks:1.0.0.11896
+Signatures for demisto/xslxwriter:1.0.0.11942
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.11896         a2569f31f679c4e206f653319f0f192de7148b2fb9cb386a23be50f150077ac1   containersci
+1.0.0.11942         46d84cfb7d11565df10b1f0d3a6f8e8a16986c7237a579368129c4c862c82ce4   (Repo Admin)
 
-List of signers and their keys for demisto/ippysocks:1.0.0.11896
+Administrative keys for demisto/xslxwriter:1.0.0.11942
 
-SIGNER              KEYS
-containersci        958f0be9059a
-
-Administrative keys for demisto/ippysocks:1.0.0.11896
-
-  Repository Key:	f622fbae3f0f008a1eca4d59064d9621cf649138b0cc2b8e6cd1951de1abd9b2
-  Root Key:	01d554cbc5dac6ada3c4e0be3f6f579f0825d7341f4da32595b05d5eb713d0f9
+  Repository Key:	e8e49cc819a4d512f17fe094d10e77951bf5c234b81c81951f98209ad7acee26
+  Root Key:	8d2a002fae9ef037f48c319a0600f8e47c3bc4eb31a4f3d4e96c37e9d1397a60
 
 ```
 
@@ -84,20 +75,11 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.15
+* Version: 1.14
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `future`
-
-* Summary: Clean single-source support for Python 3 and 2
-* Version: 0.18.2
-* Pypi: https://pypi.org/project/future/
-* Homepage: https://python-future.org
-* Author: Ed Schofield ed@pythoncharmers.com
-* License :: OSI Approved :: MIT License
 
 ### `idna`
 
@@ -144,15 +126,6 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
-
-### `python-whois`
-
-* Summary: Whois querying and parsing of domain registration information.
-* Version: 0.7.3
-* Pypi: https://pypi.org/project/python-whois/
-* Homepage: https://github.com/richardpenman/whois
-* Author: Richard Penman richard.penman@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `pytz`
 
@@ -202,7 +175,7 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 44.1.1
+* Version: 49.3.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -247,107 +220,55 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.35.1
+* Version: 0.34.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
 * License :: OSI Approved :: MIT License
 
+### `XlsxWriter`
+
+* Summary: A Python module for creating Excel XLSX files.
+* Version: 1.3.6
+* Pypi: https://pypi.org/project/XlsxWriter/
+* Homepage: https://github.com/jmcnamara/XlsxWriter
+* Author: John McNamara jmcnamara@cpan.org
+* License :: OSI Approved :: BSD License
+
 ## `OS Packages`
 
-* adduser	3.118
-* apt	1.8.2.1
-* base-files	10.3+deb10u6
-* base-passwd	3.5.46
-* bash	5.0-4
-* bsdutils	1:2.33.1-0.1
-* ca-certificates	20200601~deb10u1
-* coreutils	8.30-3
-* dash	0.5.10.2-5
-* debconf	1.5.71
-* debian-archive-keyring	2019.1
-* debianutils	4.8.6.1
-* diffutils	1:3.7-3
-* dpkg	1.19.7
-* e2fsprogs	1.44.5-1+deb10u3
-* fdisk	2.33.1-0.1
-* findutils	4.6.0+git+20190209-2
-* gcc-8-base:amd64	8.3.0-6
-* gpgv	2.2.20-1~bpo10+1
-* grep	3.3-1
-* gzip	1.9-3
-* hostname	3.21
-* init-system-helpers	1.56+nmu1
-* libacl1:amd64	2.2.53-4
-* libapt-pkg5.0:amd64	1.8.2.1
-* libattr1:amd64	1:2.4.48-4
-* libaudit-common	1:2.8.4-3
-* libaudit1:amd64	1:2.8.4-3
-* libblkid1:amd64	2.33.1-0.1
-* libbz2-1.0:amd64	1.0.6-9.2~deb10u1
-* libc-bin	2.28-10
-* libc6:amd64	2.28-10
-* libcap-ng0:amd64	0.7.9-2
-* libcom-err2:amd64	1.45.5-2~bpo10+1
-* libdb5.3:amd64	5.3.28+dfsg1-0.5
-* libdebconfclient0:amd64	0.249
-* libext2fs2:amd64	1.44.5-1+deb10u3
-* libfdisk1:amd64	2.33.1-0.1
-* libffi6:amd64	3.2.1-9
-* libgcc1:amd64	1:8.3.0-6
-* libgcrypt20:amd64	1.8.4-5
-* libgdbm6:amd64	1.18.1-4
-* libgmp10:amd64	2:6.1.2+dfsg-4
-* libgnutls30:amd64	3.6.7-4+deb10u5
-* libgpg-error0:amd64	1.35-1
-* libhogweed4:amd64	3.4.1-1
-* libidn2-0:amd64	2.0.5-1+deb10u1
-* liblz4-1:amd64	1.8.3-1
-* liblzma5:amd64	5.2.4-1
-* libmount1:amd64	2.33.1-0.1
-* libncurses6:amd64	6.1+20181013-2+deb10u2
-* libncursesw6:amd64	6.1+20181013-2+deb10u2
-* libnettle6:amd64	3.4.1-1
-* libp11-kit0:amd64	0.23.15-2
-* libpam-modules-bin	1.3.1-5
-* libpam-modules:amd64	1.3.1-5
-* libpam-runtime	1.3.1-5
-* libpam0g:amd64	1.3.1-5
-* libpcre3:amd64	2:8.39-12
-* libprocps7:amd64	2:3.3.15-2
-* libreadline7:amd64	7.0-5
-* libseccomp2:amd64	2.4.4-1~bpo10+1
-* libselinux1:amd64	2.8-1+b1
-* libsemanage-common	2.8-2
-* libsemanage1:amd64	2.8-2
-* libsepol1:amd64	2.8-1
-* libsmartcols1:amd64	2.33.1-0.1
-* libsqlite3-0:amd64	3.27.2-3
-* libss2:amd64	1.45.5-2~bpo10+1
-* libssl1.1:amd64	1.1.1d-0+deb10u3
-* libstdc++6:amd64	8.3.0-6
-* libsystemd0:amd64	246.6-1~bpo10+1
-* libtasn1-6:amd64	4.13-3
-* libtinfo6:amd64	6.1+20181013-2+deb10u2
-* libudev1:amd64	246.6-1~bpo10+1
-* libunistring2:amd64	0.9.10-1
-* libuuid1:amd64	2.33.1-0.1
-* libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
-* login	1:4.5-1.1
-* lsb-base	10.2019051400
-* mawk	1.3.3-17+b3
-* mount	2.33.1-0.1
-* ncurses-base	6.1+20181013-2+deb10u2
-* ncurses-bin	6.1+20181013-2+deb10u2
-* netbase	6.1~bpo10+1
-* openssl	1.1.1d-0+deb10u3
-* passwd	1:4.5-1.1
-* perl-base	5.28.1-6+deb10u1
-* procps	2:3.3.15-2
-* readline-common	7.0-5
-* sed	4.7-1
-* sysvinit-utils	2.93-8
-* tar	1.30+dfsg-6
-* tzdata	2020a-0+deb10u1
-* util-linux	2.33.1-0.1
-* zlib1g:amd64	1:1.2.11.dfsg-1
+* .python-rundeps-20200804.041307 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
+* alpine-keys-2.2-r0 x86_64 {alpine-keys}
+* apk-tools-2.10.5-r1 x86_64 {apk-tools}
+* busybox-1.31.1-r19 x86_64 {busybox}
+* ca-certificates-20191127-r4 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
+* expat-2.2.9-r1 x86_64 {expat}
+* gdbm-1.13-r1 x86_64 {gdbm}
+* keyutils-libs-1.6.1-r1 x86_64 {keyutils}
+* krb5-conf-1.0-r2 x86_64 {krb5-conf}
+* krb5-libs-1.18.2-r0 x86_64 {krb5}
+* libbz2-1.0.8-r1 x86_64 {bzip2}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
+* libffi-3.3-r2 x86_64 {libffi}
+* libintl-0.20.2-r0 x86_64 {gettext}
+* libnsl-1.2.0-r1 x86_64 {libnsl}
+* libssl1.1-1.1.1g-r0 x86_64 {openssl}
+* libtirpc-1.2.6-r0 x86_64 {libtirpc}
+* libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
+* libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
+* libuuid-2.35.2-r0 x86_64 {util-linux}
+* libverto-0.3.1-r1 x86_64 {libverto}
+* musl-1.1.24-r9 x86_64 {musl}
+* musl-utils-1.1.24-r9 x86_64 {musl}
+* ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
+* readline-8.0.4-r0 x86_64 {readline}
+* scanelf-1.2.6-r0 x86_64 {pax-utils}
+* sqlite-libs-3.32.1-r0 x86_64 {sqlite}
+* ssl_client-1.31.1-r19 x86_64 {busybox}
+* xz-libs-5.2.5-r0 x86_64 {xz}
+* zlib-1.2.11-r3 x86_64 {zlib}

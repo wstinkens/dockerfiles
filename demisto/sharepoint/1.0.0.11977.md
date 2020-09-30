@@ -1,24 +1,23 @@
-# `demisto/ippysocks:1.0.0.11896`
+# `demisto/sharepoint:1.0.0.11977`
 ## Docker Metadata
-- Image Size: `105.85 MB`
-- Image ID: `sha256:dc4a4f211632a3ddc3f6aeb10ad4b42e7e414e43b4ed67e0cc18a4990cb50b95`
-- Created: `2020-09-29T13:45:55.895895563Z`
+- Image Size: `56.86 MB`
+- Image ID: `sha256:efdb24ef4c36500aade2e42a875cf7d9e531be93a519809dd8a543018e236731`
+- Created: `2020-09-29T18:24:41.11916376Z`
 - Arch: `linux`/`amd64`
-- Command: `["python2"]`
+- Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `PYTHONIOENCODING=UTF-8`
-  - `GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF`
-  - `PYTHON_VERSION=2.7.18`
-  - `PYTHON_PIP_VERSION=20.0.2`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d59197a3c169cef378a22428a3fa99d33e080a5d/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=421ac1d44c0cf9730a088e337867d974b91bdce4ea2636099275071878cc189e`
-  - `DOCKER_IMAGE=demisto/ippysocks:1.0.0.11896`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.8.6`
+  - `PYTHON_PIP_VERSION=20.2.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
+  - `DOCKER_IMAGE=demisto/sharepoint:1.0.0.11977`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e0c06fc8d58a45fc266ec4d07e474a1466cf762e`
-  - `org.opencontainers.image.version:1.0.0.11896`
+  - `org.opencontainers.image.revision:a1b9017eea4565ae655070b696be3fbff9c837ae`
+  - `org.opencontainers.image.version:1.0.0.11977`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -34,20 +33,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ippysocks:1.0.0.11896
+Signatures for demisto/sharepoint:1.0.0.11977
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.11896         a2569f31f679c4e206f653319f0f192de7148b2fb9cb386a23be50f150077ac1   containersci
+1.0.0.11977         42e8d4580f1c5bb144887beae324ddd04329d1b3092b85b910689f0b646d6ad2   (Repo Admin)
 
-List of signers and their keys for demisto/ippysocks:1.0.0.11896
+Administrative keys for demisto/sharepoint:1.0.0.11977
 
-SIGNER              KEYS
-containersci        958f0be9059a
-
-Administrative keys for demisto/ippysocks:1.0.0.11896
-
-  Repository Key:	f622fbae3f0f008a1eca4d59064d9621cf649138b0cc2b8e6cd1951de1abd9b2
-  Root Key:	01d554cbc5dac6ada3c4e0be3f6f579f0825d7341f4da32595b05d5eb713d0f9
+  Repository Key:	b9ff6e47202d8af6d66eb2dbe9defc7eb8c89522224251c39908d2d40bf03e37
+  Root Key:	5e46a5d35dd3c7848e40a55f7f02d423e1a593b0fad299d21cd015de750eac99
 
 ```
 
@@ -63,6 +57,15 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.14.3
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
@@ -71,6 +74,16 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Homepage: https://github.com/chardet/chardet
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 3.1.1
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The cryptography developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -90,15 +103,6 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `future`
-
-* Summary: Clean single-source support for Python 3 and 2
-* Version: 0.18.2
-* Pypi: https://pypi.org/project/future/
-* Homepage: https://python-future.org
-* Author: Ed Schofield ed@pythoncharmers.com
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -107,6 +111,24 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
+
+### `lxml`
+
+* Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
+* Version: 4.5.2
+* Pypi: https://pypi.org/project/lxml/
+* Homepage: https://lxml.de/
+* Author: lxml dev team lxml-dev@lxml.de
+* License :: OSI Approved :: BSD License
+
+### `ntlm-auth`
+
+* Summary: Creates NTLM authentication structures
+* Version: 1.5.0
+* Pypi: https://pypi.org/project/ntlm-auth/
+* Homepage: https://github.com/jborean93/ntlm-auth
+* Author: Jordan Borean jborean93@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -126,6 +148,15 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 2.20
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
+* License :: OSI Approved :: BSD License
+
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -144,15 +175,6 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
-
-### `python-whois`
-
-* Summary: Whois querying and parsing of domain registration information.
-* Version: 0.7.3
-* Pypi: https://pypi.org/project/python-whois/
-* Homepage: https://github.com/richardpenman/whois
-* Author: Richard Penman richard.penman@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `pytz`
 
@@ -199,13 +221,40 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
+### `requests-ntlm`
+
+* Summary: This package allows for HTTP NTLM authentication using the requests library.
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/requests_ntlm/
+* Homepage: https://github.com/requests/requests-ntlm
+* Author: Ben Toews mastahyeti@gmail.com
+* License :: OSI Approved :: ISC License (ISCL)
+
+### `requests-toolbelt`
+
+* Summary: A utility belt for advanced users of python-requests
+* Version: 0.9.1
+* Pypi: https://pypi.org/project/requests-toolbelt/
+* Homepage: https://toolbelt.readthedocs.org
+* Author: Ian Cordasco, Cory Benfield graffatcolmingov@gmail.com
+* License :: OSI Approved :: Apache Software License
+
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 44.1.1
+* Version: 50.3.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `SharePlum`
+
+* Summary: Python SharePoint Library
+* Version: 0.5.1
+* Pypi: https://pypi.org/project/SharePlum/
+* Homepage: https://github.com/jasonrollins/shareplum
+* Author: Jason Rollins jason.c.rollins@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -291,6 +340,7 @@ Administrative keys for demisto/ippysocks:1.0.0.11896
 * libcom-err2:amd64	1.45.5-2~bpo10+1
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
 * libdebconfclient0:amd64	0.249
+* libexpat1:amd64	2.2.6-2+deb10u1
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
 * libffi6:amd64	3.2.1-9

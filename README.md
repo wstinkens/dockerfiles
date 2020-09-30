@@ -131,6 +131,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/sane-doc-reports](demisto/sane-doc-reports/last.md)
 * [demisto/sane-pdf-reports](demisto/sane-pdf-reports/last.md)
 * [demisto/servicenow](demisto/servicenow/last.md)
+* [demisto/sharepoint](demisto/sharepoint/last.md)
 * [demisto/sixgill](demisto/sixgill/last.md)
 * [demisto/sklearn](demisto/sklearn/last.md)
 * [demisto/slack](demisto/slack/last.md)
@@ -168,9 +169,10 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/xlrd](demisto/xlrd/last.md)
 * [demisto/xlrd-py3](demisto/xlrd-py3/last.md)
 * [demisto/xmlparser](demisto/xmlparser/last.md)
+* [demisto/xslxwriter](demisto/xslxwriter/last.md)
 * [demisto/yarapy](demisto/yarapy/last.md)
 * [demisto/zabbix](demisto/zabbix/last.md)
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-09-29 01:05:27.713927
+Last updated: 2020-09-30 01:12:19.402947
