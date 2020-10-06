@@ -1,23 +1,23 @@
-# `demisto/sklearn:1.0.0.12132`
+# `demisto/twilio:1.0.0.12123`
 ## Docker Metadata
-- Image Size: `178.58 MB`
-- Image ID: `sha256:a291c570ef082c06652668936cd4b690c2fc1b15d1892cb68feffd2eda72a3d4`
-- Created: `2020-10-06T00:05:44.375175113Z`
+- Image Size: `23.42 MB`
+- Image ID: `sha256:9d8efbcdf6cdff1a2a91f051f3e1b61517aa8682d7a41be05e3542a05ee038c3`
+- Created: `2020-10-05T20:20:31.938618338Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.8.5`
-  - `PYTHON_PIP_VERSION=20.2.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.12132`
+  - `PYTHON_VERSION=3.8.6`
+  - `PYTHON_PIP_VERSION=20.2.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
+  - `DOCKER_IMAGE=demisto/twilio:1.0.0.12123`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1088e6409bcbbb48a08c99c5e68c7752e93f24bf`
-  - `org.opencontainers.image.version:1.0.0.12132`
+  - `org.opencontainers.image.revision:45a33dff7274447ed3ac5fbef0dd39f99ec50e58`
+  - `org.opencontainers.image.version:1.0.0.12123`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,38 +30,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.12132
+Signatures for demisto/twilio:1.0.0.12123
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.12132         cf576c844e6a2e20fe2a238fa573b00672b45d391c21965a157f57a5caa50660   (Repo Admin)
+1.0.0.12123         29c85cc5435d55ce4168786970cc6be797d619e59f15a3f0cbe7161bbc4e972c   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.12132
+Administrative keys for demisto/twilio:1.0.0.12123
 
-  Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
-  Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
+  Repository Key:	99b46decaa62a2d5ae6e2387f0dd142ea0cb7501996724d44f2b75cfaf8ee4f3
+  Root Key:	6c4f5b2876ce5765d1073fc03697d0cb3024393968c956cbb5f2ca28e730b4a1
 
 ```
 
 ## `Python Packages`
 
-
-### `attrs`
-
-* Summary: Classes Without Boilerplate
-* Version: 20.2.0
-* Pypi: https://pypi.org/project/attrs/
-* Homepage: https://www.attrs.org/
-* Author: Hynek Schlawack hs@ox.cx
-* License :: OSI Approved :: MIT License
-
-### `beautifulsoup4`
-
-* Summary: Screen-scraping library
-* Version: 4.9.3
-* Pypi: https://pypi.org/project/beautifulsoup4/
-* Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
-* Author: Leonard Richardson leonardr@segfault.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -81,59 +63,23 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: Daniel Blanchard dan.blanchard@gmail.com
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 7.1.2
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: 
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.4
+* Version: 0.7.6
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
 
-### `dill`
-
-* Summary: serialize all of python
-* Version: 0.3.2
-* Pypi: https://pypi.org/project/dill/
-* Homepage: https://pypi.org/project/dill
-* Author: Mike McKerns
-* License :: OSI Approved :: BSD License
-
-### `eli5`
-
-* Summary: Debug machine learning classifiers and explain their predictions
-* Version: 0.10.1
-* Pypi: https://pypi.org/project/eli5/
-* Homepage: https://github.com/TeamHG-Memex/eli5
-* Author: Mikhail Korobov, Konstantin Lopuhin kmike84@gmail.com, kostia.lopuhin@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.14
+* Version: 1.15
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `graphviz`
-
-* Summary: Simple Python interface for Graphviz
-* Version: 0.14.1
-* Pypi: https://pypi.org/project/graphviz/
-* Homepage: https://github.com/xflr6/graphviz
-* Author: Sebastian Bank sebastian.bank@uni-leipzig.de
-* License :: OSI Approved :: MIT License
 
 ### `idna`
 
@@ -144,51 +90,6 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `Jinja2`
-
-* Summary: A very fast and expressive template engine.
-* Version: 2.11.2
-* Pypi: https://pypi.org/project/Jinja2/
-* Homepage: https://palletsprojects.com/p/jinja/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
-### `joblib`
-
-* Summary: Lightweight pipelining: using Python functions as pipeline jobs.
-* Version: 0.17.0
-* Pypi: https://pypi.org/project/joblib/
-* Homepage: https://joblib.readthedocs.io
-* Author: Gael Varoquaux gael.varoquaux@normalesup.org
-* License :: OSI Approved :: BSD License
-
-### `MarkupSafe`
-
-* Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 1.1.1
-* Pypi: https://pypi.org/project/MarkupSafe/
-* Homepage: https://palletsprojects.com/p/markupsafe/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
-### `nltk`
-
-* Summary: Natural Language Toolkit
-* Version: 3.5
-* Pypi: https://pypi.org/project/nltk/
-* Homepage: http://nltk.org/
-* Author: Steven Bird stevenbird1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `numpy`
-
-* Summary: NumPy is the fundamental package for array computing with Python.
-* Version: 1.19.2
-* Pypi: https://pypi.org/project/numpy/
-* Homepage: https://www.numpy.org
-* Author: Travis E. Oliphant et al.
-* License: BSD
-
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -198,15 +99,6 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `pandas`
-
-* Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 1.1.3
-* Pypi: https://pypi.org/project/pandas/
-* Homepage: https://pandas.pydata.org
-* Author: 
-* License: BSD
-
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -214,6 +106,15 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 1.7.1
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: http://github.com/jpadilla/pyjwt
+* Author: Jose Padilla hello@jpadilla.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -280,28 +181,10 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `scikit-learn`
-
-* Summary: A set of python modules for machine learning and data mining
-* Version: 0.23.2
-* Pypi: https://pypi.org/project/scikit-learn/
-* Homepage: http://scikit-learn.org
-* Author: 
-* License: new BSD
-
-### `scipy`
-
-* Summary: SciPy: Scientific Library for Python
-* Version: 1.5.2
-* Pypi: https://pypi.org/project/scipy/
-* Homepage: https://www.scipy.org
-* Author: 
-* License :: OSI Approved :: BSD License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 49.2.1
+* Version: 50.3.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -316,33 +199,6 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `soupsieve`
-
-* Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/soupsieve/
-* Homepage: https://github.com/facelessuser/soupsieve
-* Author: Isaac Muse Isaac.Muse@gmail.com
-* License :: OSI Approved :: MIT License
-
-### `tabulate`
-
-* Summary: Pretty-print tabular data
-* Version: 0.8.7
-* Pypi: https://pypi.org/project/tabulate/
-* Homepage: https://github.com/astanin/python-tabulate
-* Author: Sergey Astanin s.astanin@gmail.com
-* License :: OSI Approved :: MIT License
-
-### `threadpoolctl`
-
-* Summary: threadpoolctl
-* Version: 2.1.0
-* Pypi: https://pypi.org/project/threadpoolctl/
-* Homepage: https://github.com/joblib/threadpoolctl
-* Author: Thomas Moreau thomas.moreau.2010@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -352,15 +208,14 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `tqdm`
+### `twilio`
 
-* Summary: Fast, Extensible Progress Meter
-* Version: 4.50.0
-* Pypi: https://pypi.org/project/tqdm/
-* Homepage: https://github.com/tqdm/tqdm
-* Author: 
+* Summary: Twilio API client and TwiML generator
+* Version: 6.45.4
+* Pypi: https://pypi.org/project/twilio/
+* Homepage: https://github.com/twilio/twilio-python/
+* Author: Twilio help@twilio.com
 * License :: OSI Approved :: MIT License
-* License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
 ### `tzlocal`
 
@@ -383,7 +238,7 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.34.2
+* Version: 0.35.1
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -391,11 +246,10 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 
 ## `OS Packages`
 
-* .python-rundeps-20200804.041307 noarch {.python-rundeps}
+* .python-rundeps-20200924.220258 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
-* bash-5.0.17-r0 x86_64 {bash}
 * busybox-1.31.1-r19 x86_64 {busybox}
 * ca-certificates-20191127-r4 x86_64 {ca-certificates}
 * ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
@@ -409,14 +263,9 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
 * libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
-* libgcc-9.3.0-r2 x86_64 {gcc}
-* libgfortran-9.3.0-r2 x86_64 {gcc}
-* libgomp-9.3.0-r2 x86_64 {gcc}
 * libintl-0.20.2-r0 x86_64 {gettext}
 * libnsl-1.2.0-r1 x86_64 {libnsl}
-* libquadmath-9.3.0-r2 x86_64 {gcc}
 * libssl1.1-1.1.1g-r0 x86_64 {openssl}
-* libstdc++-9.3.0-r2 x86_64 {gcc}
 * libtirpc-1.2.6-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.2.6-r0 x86_64 {libtirpc}
 * libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
@@ -426,7 +275,6 @@ Administrative keys for demisto/sklearn:1.0.0.12132
 * musl-utils-1.1.24-r9 x86_64 {musl}
 * ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
-* openblas-0.3.9-r2 x86_64 {openblas}
 * readline-8.0.4-r0 x86_64 {readline}
 * scanelf-1.2.6-r0 x86_64 {pax-utils}
 * sqlite-libs-3.32.1-r0 x86_64 {sqlite}
