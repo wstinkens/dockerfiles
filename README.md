@@ -43,6 +43,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/exchangelib](demisto/exchangelib/last.md)
 * [demisto/exifread](demisto/exifread/last.md)
 * [demisto/faker3](demisto/faker3/last.md)
+* [demisto/fastapi](demisto/fastapi/last.md)
 * [demisto/fasttext](demisto/fasttext/last.md)
 * [demisto/fetch-data](demisto/fetch-data/last.md)
 * [demisto/genericsql](demisto/genericsql/last.md)
@@ -176,4 +177,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-10-09 01:06:02.210090
+Last updated: 2020-10-10 01:02:05.554825

@@ -1,23 +1,23 @@
-# `demisto/boto3py3:1.0.0.12369`
+# `demisto/fastapi:1.0.0.12361`
 ## Docker Metadata
-- Image Size: `28.37 MB`
-- Image ID: `sha256:dcd683a61de74e9c417170d2e9b54a563f958bf30a39f809755a90875dc3123e`
-- Created: `2020-10-09T19:33:56.862603003Z`
+- Image Size: `22.26 MB`
+- Image ID: `sha256:2fb877126cb9b3bfe98307fb046cfb7e3153057e2867a02222ee14fcb5e15cc9`
+- Created: `2020-10-09T13:53:54.432345346Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.8.5`
-  - `PYTHON_PIP_VERSION=20.2.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.12369`
+  - `PYTHON_VERSION=3.8.6`
+  - `PYTHON_PIP_VERSION=20.2.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c`
+  - `DOCKER_IMAGE=demisto/fastapi:1.0.0.12361`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cd19ca4798650a28efdba230b487d864e4847439`
-  - `org.opencontainers.image.version:1.0.0.12369`
+  - `org.opencontainers.image.revision:4e5caba39cd227353d6b3f64a8ef051b58cd8b90`
+  - `org.opencontainers.image.version:1.0.0.12361`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,38 +30,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.12369
+Signatures for demisto/fastapi:1.0.0.12361
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.12369         1a6d86f39fa7710f5af9cf431bb48d918cb14f9ecb6dc9f3b94f177978fd3595   (Repo Admin)
+1.0.0.12361         f4a5487f303e314f9020a796dd908b5d64b6120d05d227eea53dc7153405e734   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.12369
+Administrative keys for demisto/fastapi:1.0.0.12361
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
+  Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
 
 ```
 
 ## `Python Packages`
 
-
-### `boto3`
-
-* Summary: The AWS SDK for Python
-* Version: 1.15.16
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.18.16
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
 
 ### `certifi`
 
@@ -84,16 +66,25 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.4
+* Version: 0.7.6
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
 
+### `fastapi`
+
+* Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+* Version: 0.61.1
+* Pypi: https://pypi.org/project/fastapi/
+* Homepage: https://github.com/tiangolo/fastapi
+* Author: Sebastián Ramírez tiangolo@gmail.com
+* License :: OSI Approved :: MIT License
+
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.14
+* Version: 1.15
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -107,15 +98,6 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
-
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 0.10.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -133,6 +115,15 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `pydantic`
+
+* Summary: Data validation and settings management using python 3.6 type hinting
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: https://github.com/samuelcolvin/pydantic
+* Author: Samuel Colvin s@muelcolvin.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -175,7 +166,7 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2020.7.14
+* Version: 2020.9.27
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://bitbucket.org/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -199,19 +190,10 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
-
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.3.3
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 49.2.1
+* Version: 50.3.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -225,6 +207,15 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
+
+### `starlette`
+
+* Summary: The little ASGI library that shines.
+* Version: 0.13.6
+* Pypi: https://pypi.org/project/starlette/
+* Homepage: https://github.com/encode/starlette
+* Author: Tom Christie tom@tomchristie.com
+* License :: OSI Approved :: BSD License
 
 ### `tldextract`
 
@@ -256,7 +247,7 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.34.2
+* Version: 0.35.1
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -264,7 +255,7 @@ Administrative keys for demisto/boto3py3:1.0.0.12369
 
 ## `OS Packages`
 
-* .python-rundeps-20200804.041307 noarch {.python-rundeps}
+* .python-rundeps-20200924.220258 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
 * apk-tools-2.10.5-r1 x86_64 {apk-tools}
