@@ -276,7 +276,6 @@
         "docker_images": [
             "demisto/snowflake",
             "demisto/office-utils",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -290,7 +289,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -384,9 +382,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -414,7 +414,6 @@
             "demisto/snowflake",
             "demisto/office-utils",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -428,7 +427,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -522,9 +520,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -824,8 +824,8 @@
             "demisto/sklearn",
             "demisto/argus-toolbelt",
             "demisto/aiohttp",
-            "demisto/pymisp",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -936,11 +936,11 @@
         "docker_images": [
             "demisto/pytan",
             "demisto/xmlparser",
-            "demisto/taxii",
-            "demisto/bs4",
             "demisto/btfl-soup",
             "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -1007,8 +1007,8 @@
     "bs4": {
         "author": "Leonard Richardson leonardr@segfault.org",
         "docker_images": [
-            "demisto/bs4",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/bs4"
         ],
         "home_page": "https://pypi.python.org/pypi/beautifulsoup4",
         "licenses": [
@@ -1108,7 +1108,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -1122,7 +1121,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -1216,9 +1214,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1292,7 +1292,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -1306,7 +1305,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -1400,9 +1398,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1487,8 +1487,8 @@
     "colorlog": {
         "author": "Sam Clements sam@borntyping.co.uk",
         "docker_images": [
-            "demisto/taxii",
-            "demisto/argus-toolbelt"
+            "demisto/argus-toolbelt",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/borntyping/python-colorlog",
         "licenses": [
@@ -1687,7 +1687,6 @@
             "demisto/snowflake",
             "demisto/office-utils",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -1701,7 +1700,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -1795,9 +1793,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2247,7 +2247,6 @@
         "author": "Alexander Schepanovski suor.web@gmail.com",
         "docker_images": [
             "demisto/office-utils",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -2261,7 +2260,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -2355,9 +2353,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -2877,7 +2877,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -2891,7 +2890,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -2985,9 +2983,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -3175,8 +3175,8 @@
         "author": "Julian Berman Julian@GrayVines.com",
         "docker_images": [
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/Julian/jsonschema",
         "licenses": [
@@ -3302,8 +3302,8 @@
     "libtaxii": {
         "author": "The MITRE Corporation taxii@mitre.org",
         "docker_images": [
-            "demisto/taxii",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/taxii"
         ],
         "home_page": "https://taxiiproject.github.io/",
         "licenses": [
@@ -3344,8 +3344,6 @@
             "demisto/pyquery",
             "demisto/office-utils",
             "demisto/py-ews",
-            "demisto/taxii",
-            "demisto/bs4",
             "demisto/docxpy",
             "demisto/pcap-http-extractor",
             "demisto/sharepoint",
@@ -3353,7 +3351,9 @@
             "demisto/pcap-miner",
             "demisto/zeep",
             "demisto/taxii-server",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -3402,8 +3402,8 @@
     "markdownify": {
         "author": "Matthew Tretter m@tthewwithanm.com",
         "docker_images": [
-            "demisto/taxii",
-            "demisto/btfl-soup"
+            "demisto/btfl-soup",
+            "demisto/taxii"
         ],
         "home_page": "http://github.com/matthewwithanm/python-markdownify",
         "licenses": [
@@ -3555,10 +3555,10 @@
         "author": "Stefan Nordhausen stefan.nordhausen@immobilienscout24.de",
         "docker_images": [
             "demisto/netaddr",
-            "demisto/taxii",
             "demisto/taxii-server",
             "demisto/teams",
-            "demisto/netutils"
+            "demisto/netutils",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/drkjam/netaddr/",
         "licenses": [
@@ -3712,7 +3712,6 @@
             "demisto/snowflake",
             "demisto/office-utils",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -3726,7 +3725,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -3820,9 +3818,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -4163,7 +4163,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -4177,7 +4176,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -4271,9 +4269,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -4499,7 +4499,6 @@
         "author": "Ilya Etingof etingof@gmail.com",
         "docker_images": [
             "demisto/pysmb",
-            "demisto/taxii",
             "demisto/akamai",
             "demisto/gvault",
             "demisto/google-api",
@@ -4514,7 +4513,8 @@
             "demisto/btfl-soup",
             "demisto/ldap",
             "demisto/google-cloud-storage",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -4647,8 +4647,8 @@
     "pycryptodome": {
         "author": "Helder Eijs helderijs@gmail.com",
         "docker_images": [
-            "demisto/taxii",
-            "demisto/btfl-soup"
+            "demisto/btfl-soup",
+            "demisto/taxii"
         ],
         "home_page": "https://www.pycryptodome.org",
         "licenses": [
@@ -4832,8 +4832,8 @@
         "author": "Tobias Gustafsson tobias.l.gustafsson@gmail.com",
         "docker_images": [
             "demisto/argus-toolbelt",
-            "demisto/pymisp",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp"
         ],
         "home_page": "http://github.com/tobgu/pyrsistent/",
         "licenses": [
@@ -4907,7 +4907,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -4921,7 +4920,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -5015,9 +5013,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -5122,7 +5122,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -5136,7 +5135,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -5230,9 +5228,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -5321,7 +5321,6 @@
             "demisto/snowflake",
             "demisto/office-utils",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -5335,7 +5334,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -5429,9 +5427,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -5477,7 +5477,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -5491,7 +5490,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -5585,9 +5583,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -5602,7 +5602,6 @@
             "demisto/machine-learning",
             "demisto/tldextract",
             "demisto/exchange",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -5616,7 +5615,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -5709,9 +5707,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -5819,7 +5819,6 @@
     "rsa": {
         "author": "Sybren A. Stuvel sybren@stuvel.eu",
         "docker_images": [
-            "demisto/taxii",
             "demisto/gvault",
             "demisto/google-api",
             "demisto/google-vision-api",
@@ -5831,7 +5830,8 @@
             "demisto/google-k8s-engine",
             "demisto/btfl-soup",
             "demisto/google-cloud-storage",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/taxii"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -6014,7 +6014,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -6028,7 +6027,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -6122,9 +6120,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -6199,7 +6199,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -6213,7 +6212,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -6307,9 +6305,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -6381,11 +6381,11 @@
     "soupsieve": {
         "author": "Isaac Muse Isaac.Muse@gmail.com",
         "docker_images": [
-            "demisto/taxii",
-            "demisto/bs4",
             "demisto/btfl-soup",
             "demisto/fetch-data",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -6786,7 +6786,6 @@
             "demisto/machine-learning",
             "demisto/tldextract",
             "demisto/exchange",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -6800,7 +6799,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -6893,9 +6891,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -7006,7 +7006,6 @@
             "demisto/office-utils",
             "demisto/py-ews",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -7020,7 +7019,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -7114,9 +7112,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -7183,7 +7183,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -7197,7 +7196,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -7291,9 +7289,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -7520,7 +7520,6 @@
             "demisto/py-ews",
             "demisto/dl",
             "demisto/powershell-core",
-            "demisto/taxii",
             "demisto/pyjwt3",
             "demisto/akamai",
             "demisto/smime-encrypt",
@@ -7534,7 +7533,6 @@
             "demisto/fasttext",
             "demisto/threatconnect-sdk",
             "demisto/splunksdk",
-            "demisto/bs4",
             "demisto/duoadmin",
             "demisto/hashicorp",
             "demisto/pykafka",
@@ -7628,9 +7626,11 @@
             "demisto/twilio",
             "demisto/imap",
             "demisto/boto3py3",
-            "demisto/pymisp",
             "demisto/py3ews",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp",
+            "demisto/bs4",
+            "demisto/taxii"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -7655,8 +7655,8 @@
         "author": "Graham Dumpleton Graham.Dumpleton@gmail.com",
         "docker_images": [
             "demisto/ml",
-            "demisto/pymisp",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/pymisp"
         ],
         "home_page": "https://github.com/GrahamDumpleton/wrapt",
         "licenses": [
