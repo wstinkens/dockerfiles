@@ -30,6 +30,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/devo](demisto/devo/last.md)
 * [demisto/distorm3](demisto/distorm3/last.md)
 * [demisto/dl](demisto/dl/last.md)
+* [demisto/dl-languages](demisto/dl-languages/last.md)
 * [demisto/dnspython](demisto/dnspython/last.md)
 * [demisto/dnstwist](demisto/dnstwist/last.md)
 * [demisto/docxpy](demisto/docxpy/last.md)
@@ -177,4 +178,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2020-10-18 01:03:27.093711
+Last updated: 2020-10-19 01:04:49.553521
